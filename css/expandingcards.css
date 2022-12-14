@@ -5,22 +5,29 @@
 
 
 body{
+    background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000");
     font-family: 'Muli', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+   
     overflow: hidden;
-    margin: 0;
+    margin: 55px;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    background-position:center;
+    
+    
 }
 
 .Contenedor {
     display: flex;
     width: 90vw;
+    
 }
 
 .contenedor{
-    background-size: cover;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 80vh;
